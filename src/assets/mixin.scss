@@ -1,0 +1,6 @@
+@function pxToRem($px, $base: 28.125) {
+  @return ($px / $base) * 1rem;
+}
+@function pxToRemr($px, $base: 14.0625) {
+  @return ($px / $base) * 1rem;
+}
