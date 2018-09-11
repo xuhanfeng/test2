@@ -1,18 +1,12 @@
 <template>
   <div class="hello">
-      <h1>音乐app</h1>
-      <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
+   djesiopfjriogji
   </div>
 </template>
 
 <script>
 export default {
-  name: '',
+  name: 'search',
   data () {
     return {
       msg: ''
@@ -31,5 +25,11 @@ export default {
   line-height:3rem;
   text-align:center;
   font-size:1.2rem;
+}
+ul{
+  display:-webkit-box;
+  li{
+    -webkit-box-flex: 1;
+  }
 }
 </style>
